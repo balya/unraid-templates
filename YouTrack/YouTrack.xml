@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>YouTrack</Name>
+  <Repository>jetbrains/youtrack:2022.3.62571</Repository>
+  <Registry>https://hub.docker.com/r/jetbrains/youtrack/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://www.jetbrains.com/youtrack/</Project>
+  <Overview>A project management tool that can be adapted to your processes to help you deliver great products. Track projects and tasks, use agile boards, plan sprints and releases, keep a knowledge base, work with reports and dashboards, create workflows that follow your business processes. Never force your process to fit the limits of a tool again. Unlike other project management tools, YouTrack can be customized to your needs!</Overview>
+  <Category>Productivity:</Category>
+  <WebUI>http://[IP]:[PORT:8765]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Balya/unraid-templates/main/YouTrack/icon-200.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1668704401</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires>chown -R 13001:13001 conf/ backups/ data/ logs/</Requires>
+  <Config Name="Host Port 1" Target="8080" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8765</Config>
+  <Config Name="data" Target="/opt/youtrack/data/" Default="" Mode="rw" Description="A directory where YouTrack stores its database. For a new installation, this directory must be empty." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/YouTrack/data/</Config>
+  <Config Name="logs" Target="/opt/youtrack/logs/" Default="" Mode="rw" Description="A directory where YouTrack stores its log files." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/YouTrack/logs/</Config>
+  <Config Name="backups" Target="/opt/youtrack/backups/" Default="" Mode="rw" Description="A directory where YouTrack stores backups." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/YouTrack/backups/</Config>
+  <Config Name="conf" Target="/opt/youtrack/conf/" Default="" Mode="rw" Description="A directory where YouTrack stores configuration files that contain environment settings, JVM options, Hub integration settings, and so on." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/YouTrack/conf/</Config>
+</Container>
