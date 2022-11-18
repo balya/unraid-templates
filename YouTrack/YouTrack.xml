@@ -11,7 +11,7 @@
   <Project>https://www.jetbrains.com/youtrack/</Project>
   <Overview>A project management tool that can be adapted to your processes to help you deliver great products. Track projects and tasks, use agile boards, plan sprints and releases, keep a knowledge base, work with reports and dashboards, create workflows that follow your business processes. Never force your process to fit the limits of a tool again. Unlike other project management tools, YouTrack can be customized to your needs!</Overview>
   <Category>Productivity:</Category>
-  <WebUI>http://[IP]:[PORT:8765]</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/Balya/unraid-templates/main/YouTrack/icon-200.png</Icon>
   <ExtraParams/>
