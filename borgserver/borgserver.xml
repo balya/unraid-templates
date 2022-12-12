@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>borgserver</Name>
+  <Repository>nold360/borgserver:latest</Repository>
+  <Registry>https://hub.docker.com/r/nold360/borgserver</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://www.borgbackup.org</Project>
+  <Overview>Debian based container image, running openssh-daemon only accessable by user named "borg" using SSH-Publickey Auth &amp;amp; "borgbackup" as client.</Overview>
+  <Category>Backup:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1670884427</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires>chown 1000:1000 borg/sshkeys</Requires>
+  <Config Name="SSH" Target="22" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">2222</Config>
+  <Config Name="sshkeys" Target="/sshkeys" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/borg/sshkeys/</Config>
+  <Config Name="backup" Target="/backup" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/borg/backup/</Config>
+</Container>
