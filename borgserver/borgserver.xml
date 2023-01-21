@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/134026-support-borgserver/</Support>
   <Project>https://www.borgbackup.org</Project>
   <Overview>Debian based container image, running openssh-daemon only accessable by user named "borg" using SSH-Publickey Auth &amp;amp; "borgbackup" as client.</Overview>
   <Category>Backup:</Category>
@@ -17,7 +17,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1674333716</DateInstalled>
+  <DateInstalled>1674336695</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
