@@ -13,15 +13,17 @@
   <Category>Backup:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon/>
+  <Icon>https://raw.githubusercontent.com/Balya/unraid-templates/main/borgserver/icon-200.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1670884427</DateInstalled>
+  <DateInstalled>1674333716</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Requires>chown 1000:1000 borg/sshkeys</Requires>
+  <Requires/>
   <Config Name="SSH" Target="22" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">2222</Config>
   <Config Name="sshkeys" Target="/sshkeys" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/borg/sshkeys/</Config>
   <Config Name="backup" Target="/backup" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/borg/backup/</Config>
+  <Config Name="Used ID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="Group ID" Target="GPID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
 </Container>
