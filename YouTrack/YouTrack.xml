@@ -17,11 +17,11 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1674338045</DateInstalled>
+  <DateInstalled>1674338128</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Host Port 1" Target="8080" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8765</Config>
+  <Config Name="WebUI" Target="8080" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8765</Config>
   <Config Name="data" Target="/opt/youtrack/data/" Default="" Mode="rw" Description="A directory where YouTrack stores its database. For a new installation, this directory must be empty." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/YouTrack/data/</Config>
   <Config Name="logs" Target="/opt/youtrack/logs/" Default="" Mode="rw" Description="A directory where YouTrack stores its log files." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/YouTrack/logs/</Config>
   <Config Name="backups" Target="/opt/youtrack/backups/" Default="" Mode="rw" Description="A directory where YouTrack stores backups." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/YouTrack/backups/</Config>
