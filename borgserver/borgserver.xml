@@ -17,13 +17,13 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1674336695</DateInstalled>
+  <DateInstalled>1674920624</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="SSH" Target="22" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">2222</Config>
   <Config Name="sshkeys" Target="/sshkeys" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/borg/sshkeys/</Config>
   <Config Name="backup" Target="/backup" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/borg/backup/</Config>
-  <Config Name="Used ID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
-  <Config Name="Group ID" Target="GPID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
 </Container>

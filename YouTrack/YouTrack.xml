@@ -17,7 +17,7 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1674338128</DateInstalled>
+  <DateInstalled>1674920784</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
@@ -26,6 +26,6 @@
   <Config Name="logs" Target="/opt/youtrack/logs/" Default="" Mode="rw" Description="A directory where YouTrack stores its log files." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/YouTrack/logs/</Config>
   <Config Name="backups" Target="/opt/youtrack/backups/" Default="" Mode="rw" Description="A directory where YouTrack stores backups." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/YouTrack/backups/</Config>
   <Config Name="conf" Target="/opt/youtrack/conf/" Default="" Mode="rw" Description="A directory where YouTrack stores configuration files that contain environment settings, JVM options, Hub integration settings, and so on." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/YouTrack/conf/</Config>
-  <Config Name="User ID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
-  <Config Name="Group ID" Target="GPID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
 </Container>
