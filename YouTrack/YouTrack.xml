@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>YouTrack</Name>
-  <Repository>jetbrains/youtrack:2022.3.62571</Repository>
+  <Repository>jetbrains/youtrack:2023.1.17582</Repository>
   <Registry>https://hub.docker.com/r/jetbrains/youtrack/</Registry>
   <Network>bridge</Network>
   <MyIP/>
