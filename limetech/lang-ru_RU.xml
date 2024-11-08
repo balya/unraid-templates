@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language>
+<LanguageURL>https://github.com/Balya/lang-ru_RU/archive/master.zip</LanguageURL>
+<Language>Russian</Language>
+<LanguageLocal>Русский</LanguageLocal>
+<LanguagePack>ru_RU</LanguagePack>
+<Author>Alexander Balya</Author>
+<Name>Русский язык</Name>
+<TemplateURL>https://raw.githubusercontent.com/Balya/unraid-templates/master/limetech/lang-ru_RU.xml</TemplateURL>
+<Version>2024.11.08</Version>
+<Icon>https://raw.githubusercontent.com/Balya/unraid-templates/master/limetech/russia.png</Icon>
+<Support>https://forums.unraid.net/topic/95098-russian-github-language-repo/</Support>
+<Description>
+Пакет русского языка для Unraid и поддерживаемых плагинов. Находится в стадии доработки.
+
+This is a Russian translation for Unraid and supported plugins.
+</Description>
+</Language>
