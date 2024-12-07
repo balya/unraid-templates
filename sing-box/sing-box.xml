@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>sing-box</Name>
+  <Repository>ghcr.io/sagernet/sing-box</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://sing-box.sagernet.org</Project>
+  <Overview>Sing-box is a versatile, high-performance proxy software designed for network tunneling, traffic routing, and advanced traffic management. It supports various proxy protocols like Shadowsocks, VLESS, Trojan, and more, making it ideal for bypassing censorship and ensuring secure and private internet access. Sing-box emphasizes modularity and configurability, allowing users to fine-tune performance and integrate seamlessly into diverse network environments. With cross-platform support, robust security features, and a lightweight design, sing-box is a powerful solution for both individual users and enterprises looking to optimize their network infrastructure.</Overview>
+  <Category>Network:VPN</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Balya/unraid-templates/main/sing-box/icon-200.png</Icon>
+  <ExtraParams>--restart=always --memory=2g</ExtraParams>
+  <PostArgs>-D /var/lib/sing-box -C /etc/sing-box/ run</PostArgs>
+  <CPUset/>
+  <DateInstalled>1733588630</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires>It is necessary to create a configuration file config.json in the working directory before starting the container.&#xD;
+The configuration documentation is available here: https://sing-box.sagernet.org/configuration/</Requires>
+  <Config Name="Config" Target="/etc/sing-box" Default="/mnt/user/appdata/sing-box/" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/sing-box/</Config>
+  <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">99</Config>
+  <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="" Type="Variable" Display="advanced" Required="false" Mask="false">100</Config>
+</Container>
