@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>n8n</Name>
+  <Repository>docker.n8n.io/n8nio/n8n</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://community.n8n.io</Project>
+  <Overview>n8n &#x2013; workflow automation tool</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:5678]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Balya/unraid-templates/main/n8n/icon-512.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1758737917</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="GENERIC_TIMEZONE" Target="GENERIC_TIMEZONE" Default="America/New_York" Mode="" Description="The n8n instance timezone. Important for schedule nodes (such as Cron)." Type="Variable" Display="always" Required="false" Mask="false">Europe/Kaliningrad</Config>
+  <Config Name="TZ" Target="TZ" Default="America/New_York" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">Europe/Kaliningrad</Config>
+  <Config Name="N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS" Target="N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS" Default="" Mode="" Description="Set to true to try to set 0600 permissions for the settings file, giving only the owner read and write access." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="N8N_RUNNERS_ENABLED" Target="N8N_RUNNERS_ENABLED" Default="" Mode="" Description="Are task runners enabled." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="AppData" Target="/home/node/.n8n" Default="/mnt/user/appdata/n8n" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/n8n</Config>
+  <Config Name="WebUI" Target="5678" Default="5678" Mode="tcp" Description="WebUI Port" Type="Port" Display="always" Required="true" Mask="false">5678</Config>
+  <Config Name="N8N_SECURE_COOKIE" Target="N8N_SECURE_COOKIE" Default="true" Mode="" Description="Ensures that cookies are only sent over HTTPS, enhancing security." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <TailscaleStateDir/>
+</Container>
